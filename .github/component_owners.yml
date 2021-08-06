@@ -9,9 +9,9 @@ components:
     - vmarchaud
     - dyladan
 
-  obecny/vmarchaud: obecny vmarchaud
-  obecny/dyladan: obecny dyladan
-  vmarchaud/dyladan: vmarchaud dyladan
-  vmarchaud/obecny: vmarchaud obecny
-  dyladan/vmarchaud: dyladan vmarchaud
-  dyladan/obecny: dyladan obecny
+  obecny/vmarchaud: vmarchaud
+  obecny/dyladan: dyladan
+  vmarchaud/dyladan: dyladan
+  vmarchaud/obecny: obecny
+  dyladan/vmarchaud: vmarchaud
+  dyladan/obecny: obecny

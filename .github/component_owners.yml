@@ -1,0 +1,17 @@
+# Test configuration
+
+components:
+  obecny: obecny
+  vmarchaud: vmarchaud
+  dyladan: dyladan
+  shared:
+    - obecny
+    - vmarchaud
+    - dyladan
+
+  obecny/vmarchaud: obecny vmarchaud
+  obecny/dyladan: obecny dyladan
+  vmarchaud/dyladan: vmarchaud dyladan
+  vmarchaud/obecny: vmarchaud obecny
+  dyladan/vmarchaud: dyladan vmarchaud
+  dyladan/obecny: dyladan obecny
